@@ -1,4 +1,4 @@
-# Demo Spartacus - Use CMS Data When Replacing Slots
+# Demo Spartacus - Display Custom Global Messages
 
 This is a demo that shows how custom global messages can be added to Spartacus.
 
