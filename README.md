@@ -11,4 +11,6 @@ The `AppModule`has 4 providers:
 - `TeapotHandler` as a new `HttpErrorHandler`
 - An `APP_INITIALIZER` to make a request to an endpoint that will return a 418 error response
 
+<img width="1440" alt="screenshot showing the custom alert in Spartacus for the 418 error" src="https://user-images.githubusercontent.com/15855540/163166865-ebf1cce9-b16f-4336-8eb9-79980d072097.png">
+
 **Important Note:** _@spartacus/core_ is patched to use interfaces instead of type aliases (`GlobalMessageTypeConfig`) or object literals (`GlobalMessageConfig`) to make them augmentable. Please check [the patch file](./patches/@spartacus+core+4.3.1.patch) to see the diff.
