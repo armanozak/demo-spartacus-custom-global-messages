@@ -2,6 +2,7 @@
   "name": "demo-spartacus-custom-global-messages",
   "version": "0.0.0",
   "scripts": {
+    "postinstall": "patch-package",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
